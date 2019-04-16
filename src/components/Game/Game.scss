@@ -1,0 +1,32 @@
+.GameIntro {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  padding: 2em 10em 2em 2em;
+
+  h2 {
+    color: rgb(32, 64, 86);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+  }
+  
+  h6 {
+    color: rgb(32, 64, 86);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1rem 0;
+  }
+  
+  p {
+    color: rgb(74, 74, 74);
+    font-size: 0.85rem;
+    font-weight: 400;
+    margin: 1rem 0;
+    text-align: justify;
+  }
+
+  &__moves {
+    margin: 1.5em 0;
+  }
+}

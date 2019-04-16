@@ -1,0 +1,17 @@
+.Tile {
+
+  .card {
+      align-items: center;
+      background-color: rgb(255, 207, 179);
+      border: 4px solid #FFF;
+      border-radius: 8px;
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      display: flex;
+      font-size: 7rem;
+      font-weight: 900;
+      height: 12.5rem;
+      justify-content: center;
+      width: 12.5rem;
+    }   
+}
